@@ -19,7 +19,7 @@ if __name__ == '__main__':
         elif command == 'add':
             # Запросить данные о работнике.
             name = input("Фамилия и инициалы? ")
-            zodiac = input("Номер телефона? ")
+            number = input("Номер телефона? ")
             year = list(map(int, input("Дата рождения? ").split()))
             # Создать словарь.
             worker = {
